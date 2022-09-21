@@ -1,0 +1,415 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.WebUI\\ECommerceMaster.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Business\\ECommerceMaster.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Business\\ECommerceMaster.Business.csproj",
+        "projectName": "ECommerceMaster.Business",
+        "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Business\\ECommerceMaster.Business.csproj",
+        "packagesPath": "C:\\Users\\EKIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EKIZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.DataAccess\\ECommerceMaster.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.DataAccess\\ECommerceMaster.DataAccess.csproj"
+              },
+              "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj": {
+                "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Core\\ECommerceMaster.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Core\\ECommerceMaster.Core.csproj",
+        "projectName": "ECommerceMaster.Core",
+        "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Core\\ECommerceMaster.Core.csproj",
+        "packagesPath": "C:\\Users\\EKIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EKIZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "LinqKit.Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.24, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.DataAccess\\ECommerceMaster.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.DataAccess\\ECommerceMaster.DataAccess.csproj",
+        "projectName": "ECommerceMaster.DataAccess",
+        "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.DataAccess\\ECommerceMaster.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\EKIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EKIZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj": {
+                "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj",
+        "projectName": "ECommerceMaster.Entities",
+        "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj",
+        "packagesPath": "C:\\Users\\EKIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EKIZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Core\\ECommerceMaster.Core.csproj": {
+                "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Core\\ECommerceMaster.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.WebUI\\ECommerceMaster.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.WebUI\\ECommerceMaster.WebUI.csproj",
+        "projectName": "ECommerceMaster.WebUI",
+        "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.WebUI\\ECommerceMaster.WebUI.csproj",
+        "packagesPath": "C:\\Users\\EKIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EKIZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Business\\ECommerceMaster.Business.csproj": {
+                "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Business\\ECommerceMaster.Business.csproj"
+              },
+              "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj": {
+                "projectPath": "C:\\Users\\EKIZ\\source\\repos\\ECommerceMaster\\ECommerceMaster.Entities\\ECommerceMaster.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

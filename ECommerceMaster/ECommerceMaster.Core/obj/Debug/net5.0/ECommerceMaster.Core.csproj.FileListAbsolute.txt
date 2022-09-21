@@ -1,0 +1,11 @@
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\bin\Debug\net5.0\ECommerceMaster.Core.deps.json
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\bin\Debug\net5.0\ECommerceMaster.Core.dll
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\bin\Debug\net5.0\ref\ECommerceMaster.Core.dll
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\bin\Debug\net5.0\ECommerceMaster.Core.pdb
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\obj\Debug\net5.0\ECommerceMaster.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\obj\Debug\net5.0\ECommerceMaster.Core.AssemblyInfoInputs.cache
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\obj\Debug\net5.0\ECommerceMaster.Core.AssemblyInfo.cs
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\obj\Debug\net5.0\ECommerceMaster.Core.csproj.CoreCompileInputs.cache
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\obj\Debug\net5.0\ECommerceMaster.Core.dll
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\obj\Debug\net5.0\ref\ECommerceMaster.Core.dll
+C:\Users\EKIZ\source\repos\ECommerceMaster\ECommerceMaster.Core\obj\Debug\net5.0\ECommerceMaster.Core.pdb
